@@ -1,0 +1,47 @@
+/* Styling for the header container */
+.header .container {
+    background-color: #5b84b1ff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Styling for the buttons */
+.header .button {
+    display: inline-block;
+    border: none;
+    padding: 40px 50px;
+    margin: 10px;
+    transition: transform 0.25s ease-in-out, background-color 0.1s ease-in-out;
+    border-radius: 25px;
+    background-color: #Fc766Aff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.header .button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    background-color: rgb(165, 77, 69);
+}
+
+/* Additional styling for the header */
+.header {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 10px #Fc766Aff;
+    background-color: #5b84b1ff;
+}
+
+/* Styling for the content section */
+.content {
+    padding: 20px;
+    background-color: #5b84b1ff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #Fc766Aff;
+    color: white;
+}
